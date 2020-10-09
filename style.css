@@ -1,0 +1,65 @@
+
+/* FÜGGŐLEGES NAV SÁV
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid dodgerblue;
+}
+ul{
+    list-style: none;
+    width: 20%;
+}
+ul li{
+    margin: 5px;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    padding: 5px;
+    background-color: rgb(13, 71, 26);
+    color: white;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover:not(.active){
+    background-color: rgb(90, 24, 4);
+}
+a.active{
+    background-color: rgb(28, 3, 85);
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    background-color: rgb(13, 71, 26);
+    overflow: hidden;
+    padding: 5px;
+}
+ul li{
+    text-align: center;
+}
+ul li a{
+    float: left;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover:not(.active){
+    background-color: rgb(90, 24, 4);
+}
+a.active{
+    background-color: rgb(28, 3, 85);
+}
+#jobb{
+    float: right;
+}
